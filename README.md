@@ -8,7 +8,7 @@ This repository contains demonstrations of LLM-assisted FMEA in distinct applica
 ## 1. Brake-by-Wire System Analysis
 In this demonstration, we apply an LLM to analyze the brake-by-wire system, a critical component in modern vehicles. The model identifies potential failure modes and suggests risk mitigation strategies, facilitating a more resilient design.
 
-- **Demo**: Access the runnable demo [https://llm-fmea-assistant-tablet-manufacturing-v2-yawjvp4zbq-ew.a.run.app](https://llm-fmea-assistant-tablet-manufacturing-v2-yawjvp4zbq-ew.a.run.app).
+- **Demo**: Access the runnable demo [https://llm-fmea-assistant-v2-yawjvp4zbq-ew.a.run.app](https://llm-fmea-assistant-v2-yawjvp4zbq-ew.a.run.app).
 
 ![Brake-by-Wire Analysis](FMEA_brake_by_wire.png)
 

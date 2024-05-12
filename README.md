@@ -10,7 +10,12 @@ In this demonstration, we apply an LLM to analyze the brake-by-wire system, a cr
 
 - **Demo**: Access the runnable demo [https://llm-fmea-assistant-tablet-manufacturing-v2-yawjvp4zbq](https://llm-fmea-assistant-tablet-manufacturing-v2-yawjvp4zbq-ew.a.run.app).
 
+![Brake-by-Wire Analysis](FMEA_brake_by_wire.png)
+
 ### 2. Pharmaceutical Manufacturing Process
 This demonstration applies the LLM to a pharmaceutical manufacturing process, focusing on enhancing the safety and quality of production. By analyzing detailed process documentation, the LLM provides refined failure mode analyses and context-specific mitigation strategies.
+![Pharmaceutical_Manufacturing_Analysis](FMEA_pharmaceutical_manufacturing.png)
 
 - **Demo**: Access the runnable demo [https://llm-fmea-assistant-tablet-manufacturing-v2-yawjvp4zbq-ew.a.run.app](https://llm-fmea-assistant-tablet-manufacturing-v2-yawjvp4zbq-ew.a.run.app).
+
+

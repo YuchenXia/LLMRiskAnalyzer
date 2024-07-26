@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FMEA Table</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <style>
+        #headerContainer {
+            display: flex;
+            align-items: center;
+        }
+        #headerContainer img {
+            width: 250px; /* Adjust size as needed */
+            height: auto;
+            margin-right: 300px; /* Space between image and title */
+        }
+    </style>
+</head>
+<body>
+    <div id="headerContainer">
+        <img src="{{ url_for('static', filename='fmea_logo.png') }}" alt="Logo">
+        <h1>Failure Mode and Effect Analysis</h1>
+    </div>
+    <table id="fmeaTable">
+        <thead>
+            <tr>
+                <th class="narrow">ID</th>
+                <th class="wide">Item-Function</th>
+                <th class="wide">Failure Mode</th>
+                <th class="wide">Effects of Failure</th>
+                <th class="narrow">Severity</th>
+                <th class="wide">Potential Causes</th>
+                <th class="narrow">Occurrence</th>
+                <th class="wide">Current Controls</th>
+                <th class="narrow">Detection</th>
+                <th class="narrow">RPN</th>
+                <th class="wide">Recommended Actions</th>
+                <th class="medium">Responsible</th>
+                <th class="medium">Actions Taken</th>
+                <th class="narrow">New RPN</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Sample Row -->
+<!--            <tr>-->
+<!--                <td>Example Item</td>-->
+<!--                <td>Example Failure Mode</td>-->
+<!--                <td>Example Effect</td>-->
+<!--                <td>10</td>-->
+<!--                <td>Example Cause</td>-->
+<!--                <td>5</td>-->
+<!--                <td>Example Control</td>-->
+<!--                <td>8</td>-->
+<!--                <td>400</td>-->
+<!--                <td>Example Action</td>-->
+<!--                <td>A responsible person</td>-->
+<!--                <td>Completed</td>-->
+<!--                <td>200</td>-->
+<!--            </tr>-->
+            <!-- More rows can be added here -->
+        </tbody>
+    </table>
+<button id="addNewEntryButton">Add New Entry</button>
+<button id="autoCompleteFailure">Auto Complete Failure</button>
+<button id="autoCompleteCause">Auto Complete Cause</button>
+<button id="autoCompleteAction">Auto Complete Action</button>
+
+
+</body>
+</html>

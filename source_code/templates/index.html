@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FMEA Table</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/umd.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</head>
+<body>
+<div id="headerContainer">
+    <img src="{{ url_for('static', filename='fmea_logo.png') }}" alt="Logo">
+    <h1>Failure Mode and Effect Analysis</h1>
+    <div class="user-guide">
+        <strong>Usage guide:</strong>
+        <ol>
+            <li><strong>Edit:</strong> Click 'Edit' on any row to modify its contents.</li>
+            <li><strong>Generate Suggestions:</strong> After clicking 'Edit', <strong>right-click</strong> within a text
+                area to request AI-generated suggestions.
+            </li>
+            <li><strong>Save or Cancel:</strong> Click 'Save' to keep your changes or 'Cancel' to revert them.</li>
+        </ol>
+    </div>
+</div>
+<!--<div class="fixed-size-container">-->
+    <table id="fmeaTable">
+        <thead>
+        <tr>
+            <th class="medium"></th>
+            <th class="narrow">ID</th>
+            <th class="wide">Item-Function</th>
+            <th class="wide">Failure Mode</th>
+            <th class="wide">Effects of Failure</th>
+            <th class="narrow">Severity</th>
+            <th class="wide">Potential Causes</th>
+            <th class="narrow">Occurrence</th>
+            <th class="wide">Current Controls</th>
+            <th class="narrow">Detection</th>
+            <th class="narrow">RPN (SxOxD, auto)</th>
+            <th class="wide">Recommended Actions</th>
+            <th class="wide">Responsible</th>
+            <th class="medium">Actions Taken</th>
+            <th class="narrow">New RPN</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Sample Row -->
+        <!--            <tr>-->
+        <!--                <td><button id="editEntry">edit</button>
+        <button id="saveChange">save</button>
+        <button id="cancelChange">cancel</button></td>-->
+        <!--                <td>Example Item</td>-->
+        <!--                <td>Example Failure Mode</td>-->
+        <!--                <td>Example Effect</td>-->
+        <!--                <td>10</td>-->
+        <!--                <td>Example Cause</td>-->
+        <!--                <td>5</td>-->
+        <!--                <td>Example Control</td>-->
+        <!--                <td>8</td>-->
+        <!--                <td>400</td>-->
+        <!--                <td>Example Action</td>-->
+        <!--                <td>A responsible person</td>-->
+        <!--                <td>Completed</td>-->
+        <!--                <td>200</td>-->
+        <!--            </tr>-->
+        <!-- More rows can be added here -->
+        </tbody>
+    </table>
+    <button id="addNewEntryButton">Add New Entry</button>
+    <button id="downloadCSVButton">Download CSV</button>
+<!--</div>-->
+
+
+<button id="toggleSidebar">show LLM generation details</button>
+
+<!-- Sidebar -->
+<div id="aiGeneratedContentSidebar" class="sidebar">
+    <button id="closeSidebar" class="close-btn">Close</button>
+    <div class="sidebar-content">
+        <h5>AI Generated Content</h5>
+        <p>Generated content will appear here...</p>
+    </div>
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,172 @@
+#headerContainer {
+    display: flex;
+    align-items: center;
+    width: 1600px; /* Set the width to 1400px */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Optional: add padding for visual spacing */
+}
+#headerContainer img {
+    width: 250px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 300px; /* Space between image and title */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    table-layout: fixed;
+}
+
+td {
+    font-size: 16px;
+    padding: 4px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    word-wrap: break-word;
+    overflow: hidden; /* Ensures content that exceeds cell bounds is hidden */
+    text-overflow: ellipsis; /* Adds an ellipsis to indicate clipped text */
+    height: 100px; /* Fixed height for all cells */
+}
+
+th {
+    background-color: #f4f4f4;
+    font-size: 16px;
+    padding: 4px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 100px; /* Fixed height for all cells */
+    position: sticky; /* Make header sticky */
+    top: -30px; /* Stick to the top of the scrollable area */
+    z-index: 10; /* Ensure the header is above other content */
+}
+
+.narrow {
+    width: 50px; /* Fixed width for narrow cells */
+}
+
+.medium {
+    width: 100px; /* Fixed width for medium cells */
+}
+
+.wide {
+    width: 200px; /* Fixed width for wide cells */
+}
+
+.fixed-size-container {
+    width: 1400px; /* or any specific width */
+    height: 850px; /* fixed height */
+    overflow: auto; /* enables scrolling */
+    margin: auto; /* centering if needed */
+    padding: 0px; /* optional padding */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* optional shadow for better visibility */
+}
+
+
+body .tooltip, .second-tooltip {
+    opacity: 1;
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    color: black;
+    background-color: #ffffe0; /* Pale yellow background */
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    width: auto;
+}
+
+.tooltip.visible, .second-tooltip.visible {
+    display: block;
+}
+
+
+
+.tooltip-item, .second-tooltip-item {
+    padding: 5px 10px;
+    margin: 2px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    display: block; /* Ensure items stack vertically */
+}
+
+.tooltip-item:hover, .second-tooltip-item:hover {
+    background-color: #e2e2e2;
+}
+
+.processing {
+    background-color: yellow;
+}
+
+textarea.editable-textarea {
+    width: calc(100% - 8px); /* Subtract horizontal paddings */
+    height: calc(100% - 8px); /* Subtract vertical paddings */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin: 0; /* Ensure no default margins are applied */
+    padding: 2px; /* You can adjust padding inside the textarea if needed */
+    resize: none;
+    overflow: auto;
+    display: block; /* Ensures it does not have any inline properties */
+}
+
+.edit-row {
+    background-color: #ffffe0; /* 淡黄色 */
+}
+
+/* Sidebar CSS */
+.sidebar {
+    position: fixed;
+    bottom: -100%; /* Start hidden below the screen */
+    left: 0;
+    width: 100%;
+    background: #f4f4f4;
+    transition: bottom 0.3s;
+}
+
+.sidebar-content {
+    padding: 5px;
+    max-height: 200px; /* Adjust the max height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.close-btn {
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+.green-cell {
+    background-color: #28a745; /* Bootstrap's green for success */
+}
+
+.yellow-cell {
+    background-color: #ffc107; /* Bootstrap's yellow for warning */
+}
+
+.red-cell {
+    background-color: #dc3545; /* Bootstrap's red for danger */
+}
+
+.gray-cell {
+    background-color: #e0e0e0; /* A light gray color */
+}
+
+#toggleSidebar {
+    position: fixed;
+    right: 50%;
+    bottom: 0px;
+    width: 300px;
+}

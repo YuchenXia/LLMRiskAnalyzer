@@ -1,0 +1,160 @@
+Component ID,Component,Failure Mode,Cause,Effect,Maintenance Strategy,Severity,Occurrence,Detection,RPN
+FM1,Gearbox,Gearbox oil leakage,Seal ring damage or unqualified assembly,Reduce the life of worm gear transmission,Visual inspection,7,4,6,168
+FM2,Hydraulic cylinder,Hydraulic cylinder leakage,Seal ring damage,Hydraulic system failure,Regular maintenance,9,3,4,108
+FM3,Bearing,Insufficient bearing lubrication,Lubrication pipe blockage or insufficient lubricating oil,Bearing temperature rise,Regular maintenance,6,5,3,90
+FM4,Hydraulic system,Insufficient clamping force,Hydraulic pipe blockage or leakage,Workpiece loose or falling off,Regular inspection,6,4,5,120
+FM5,Gear,Gear wear,Insufficient lubrication,Vibration increase,Regular inspection,5,4,4,80
+FM6,Gear,Insufficient gear lubrication,Lubrication pipe blockage,Gear wear or vibration increase,Regular maintenance,5,5,4,100
+FM7,Motor,Excessively high motor temperature,Bearing damage or motor fan damage,Motor damage,CNC system alarm,9,3,2,54
+FM8,Transmission system,Workpiece axis accuracy decreased,Transmission system failure,Reduce machining accuracy,Regular inspection,8,4,3,96
+FM9,Cutting fluid system,Insufficient cutting fluid flow,Pump damage or insufficient cutting fluid,Temperature rise in machining area,CNC system alarm,7,5,3,105
+FM10,Bearing,Bearing wear,Insufficient lubrication or impurities in the bearing,Reduce machining accuracy,Regular inspection,6,4,4,96
+FM11,Fuselage (wing fuel tank relief valve),Light does not shine when refueling,"Internal circuit failure, Relief vent does not light",Local influence,Replacement parts,4,2,3,24
+FM12,Fuel electric switch,Electric switch indicator rod junction leakage oil,Sealing gasket aging,Affects performance,Replacement parts,5,3,2,30
+FM13,Fuel gauge,Swing. Jitter. in the instruction swing,Oil indicator internal bridge fault,Damages system functionality,Replacement parts,4,3,3,36
+FM14,Switch,Indication abnormal in the conversion switch set to left wing,Internal mechanical failure,Affects performance,Replacement parts,4,3,2,24
+FM15,Gas turbine starter,Function failure when not turning the engine on starting,Starter low efficiency,Function failure,Replacement parts,9,2,1,18
+FM16,Fuel level controller,Lights are not bright when refueling,Fuel oil controller damage,Local influence,Replacement parts,3,4,5,60
+FM17,Cylinder assembly,Air leakage from cylinder assembly,Inadequate stroke of pusher cylinder,O-ring failure,Replace or repair O-rings,4,4,5,80
+FM18,Pusher assembly,Wear of pusher fingers,High temperature wears out,Marks on wares,Regular maintenance,2,N/A,N/A,8
+FM19,Pusher assembly,Over travel in cylinder arm,Bad control,Dents on bottles,Adjust control parameters,2,3,1,6
+FM20,Pusher assembly,Broken bolt in pusher assembly,Misalignment, inappropriate tightening,Over vibration and inappropriate operation,Check and realign,4,N/A,N/A,90
+FM21,Pusher assembly,Work loose of bolt of pusher assembly,Inappropriate tightening, excessive temperature,Excessive vibration, undesirable operation,Regular inspection and tightening,5,N/A,N/A,90
+FM22,Pusher assembly,Wear of piston of the pusher assembly,Lubrication, wear out,Clearance and play in the assembly,Replace worn parts,4,5,7,140
+FM23,Conveyor system,Transfer of hot glass wares from dead plate to silent chain,Lubrication, wear out,Piston ring broken and wear,Enhance maintenance schedule,4,6,6,144
+FM24,Pusher assembly,Internal Leakage,Side loading and piston wear, contaminates past rod seal,Loss/reduction of output force,Improve sealing and alignment,5,3,5,75
+FM25,Pusher assembly,External Leakage,Seal leakage, piston-cylinder wear,Loss/reduction of output force,Regular seal checks and replacements,4,3,4,48
+FM26,Pusher assembly,Damaged rod seals,Excessive side loading,Contaminates entering pusher cylinder between shaft and cylinder,Enhance inspection protocols,5,4,6,120
+FM27,Pusher assembly,Spurious position change,Stiction, binding,Loss of output control or incorrect signal transmission,Regular lubrication and checks,3,2,4,24
+FM28,Pusher assembly,Jamming, seizure,Excessive loading,Loss of load control,Reduce load and enhance maintenance,3,7,2,42
+FM29,Pusher assembly,Aeration,Air drawn past rod seals during actuation,Damaged actuator and loss of seals,Improve air seal design,5,3,5,75
+FM30,Pusher assembly,Flange failure,Fracture, material faults,In operation,Strengthen material specifications and checks,4,3,3,36
+FM31,Shaft,Bush loose on shaft,Vibration,Loose coupling,Check and secure bushings,5,6,6,180
+FM32,Shaft,Damaged set screw of bushing,Overtightening,Bushing failure,Regular torque checks,5,6,6,180
+FM33,Machine base,Plate surface uneven,Manufacturing error,Leakage,Ensure manufacturing quality,7,3,6,126
+FM34,Pusher assembly,Loose pusher finger,Excessive temperature,Wares un-transferable,Regular temperature checks and component inspections,5,8,3,120
+FM35,Valve System,Valve Sticking,Mineral deposits,Reduced fluid flow,Regular cleaning and inspection,4,5,3,60
+FM36,Electrical System,Wire Insulation Breakdown,Heat and aging,Short circuit,Regular insulation testing,6,4,5,120
+FM37,Cooling System,Radiator Leak,Corrosion or physical damage,Overheating of system,Regular inspection and replacement,5,3,4,60
+FM38,Control System,Software Glitch,Software aging or bugs,System shutdown,Regular software updates,7,3,5,105
+FM39,Pump System,Impeller Wear,Normal wear and tear,Reduced pump efficiency,Regular replacement,4,6,4,96
+FM40,Conveyor Belt,Tearing of belt,Overloading or poor maintenance,Disruption in material handling,Regular load checks and maintenance,5,4,4,80
+FM41,Hydraulic Arm,Cylinder Misalignment,Poor installation or wear,Inaccurate arm movement,Realignment and regular checks,6,5,5,150
+FM42,Battery System,Battery Failure,Overcharging or deep discharge,Power loss,Regular voltage and load testing,6,4,3,72
+FM43,LED Display,LED Flickering,Faulty LEDs or power supply,Reduced visibility,Regular check and replace faulty LEDs,3,4,5,60
+FM44,Fire Suppression System,Nozzle Clogging,Accumulation of dirt,Ineffective fire suppression,Clean and inspect nozzles yearly,6,2,4,48
+FM45,Air Conditioning,Loss of Coolant,Leak in the system,Failure to cool,Inspect and refill coolant,6,3,4,72
+FM46,Sensor Array,Inaccurate Readings,Calibration drift,Incorrect data,Calibrate bi-annually,5,5,5,125
+FM47,Power Supply,Overheating,Inadequate ventilation,Shutdown of equipment,Improve ventilation,6,4,3,72
+FM48,Transmission Gears,Gear Slippage,Inadequate lubrication,Reduced transmission efficiency,Check and refill oil,7,4,3,84
+FM49,Security System,Camera Blind Spots,Improper installation,Inadequate surveillance coverage,Reposition cameras,4,2,5,40
+FM50,Solar Panel,Decreased Output,Accumulation of dirt and debris,Lower power generation,Clean panels quarterly,3,5,4,60
+FM51,Water Pump,Cavitation,High velocity operation or low pressure,Damage to pump components,Operate within recommended speeds,8,4,3,96
+FM52,Gas Detector,Sensor Failure,Exposure to extreme conditions,Failed hazard detection,Regular replacement and testing,9,3,2,54
+FM53,Server Hardware,System Crash,Overloading,Data loss,Upgrade infrastructure and balance load,8,3,1,24
+FM54,Drone,Rotor Damage,Impact with objects,Flight instability,Inspect and replace rotors,7,4,5,140
+FM55,Paint Line,Drip and Sag,Incorrect application temperatures,Quality defects in finish,Monitor and adjust environment,5,6,3,90
+FM56,Vacuum System,Seal Deterioration,Material aging,Air leakage,Maintain and replace seals,4,5,4,80
+FM57,Pressure Vessel,Corrosion Damage,Chemical exposure,Leak or burst,Regular coating and inspection,9,3,3,81
+FM58,Assembly Line,Robot Misalignment,Wear and tear,Product defects,Regular recalibration,6,4,4,96
+FM59,Insulation Material,Degradation,Environmental exposure,Reduced insulation property,Inspect and replace,5,4,4,80
+FM60,Navigation System,GPS Signal Loss,Signal interference,Navigation error,Regular system tests,4,4,5,80
+FM61,Piston Ring,Weakened piston-ring connection,Low quality of the gas for refining, Lack of adhesion of the ring,Quality control of the refining gas, process control during every refining process,4,4,3,48
+FM62,Piston Ring,Drop of the ring from the piston; Seizure of the piston-ring,Touching piston rings with bare hands; Dirt and moisture; Greasing of the ring,Workstation and process control; Control of the alphining alloy,4,3,3,36
+FM63,Piston,Poor properties of the piston; Limited operating time,No or poor melting loss removal; Bad quality of crucibles,Control during every gas refining process; Workstation control,5,4,4,80
+FM64,Piston Ring,Bad alignment of the ring; No connection with the piston; Seizure of the ring,Incorrect casting method; Mechanical working carried out incorrectly; Negligent alphining process,Control of the process; Quality control of the metal moulds and the ladle,5,3,3,45
+FM65,Piston Ring,No connection with the piston; Low endurance of the ring; Microporosity of the ring,Incorrect casting iron method; Poor condition of the furnace brickwork; Poor condition of the metal moulds,Control of the process of barrel casting; Quality control of the metal moulds and the ladle,5,4,4,80
+FM66,Piston,Too low hardness and properties of the piston; Hindered heat treatment; Reduced time of failure-free operation,Low quality of batch materials; No control of chemical composition; Improper modification process,Control of furnaces for melting of the alloys; Control of the alloy melting process; Control of chemical composition,6,3,3,54
+FM67,Piston,Poor properties of the piston; Excessive porosity and low endurance; Limited working life,Bad quality of crucibles; The metal moulds not covered; The refining process carried out incorrectly,Control during every gas refining process; Workstations control; Technological manuals control,7,2,2,28
+FM68,Fuselage (wing fuel tank relief valve),"Light does not shine when refueling","Internal circuit failure, Relief vent does not light","Local influence","Replacement parts",3,3,4,36
+FM69,Fuel electric switch,"Oil spill","Sealing gasket aging","Affects performance","Replacement parts",4,4,3,48
+FM70,Fuel gauge,"Swing. Jitter.","Oil indicator internal bridge fault","Damages system functionality","Replacement parts",5,3,3,45
+FM71,Switch,"Indication abnormal","Internal mechanical failure","Affects performance","Replacement parts",4,4,4,64
+FM72,Gas turbine starter,"Function failure when not turning the engine on starting","Starter low efficiency","Function failure","Replacement parts",6,2,3,36
+FM73,Fuel level controller,"Lights are not bright when refueling","Fuel oil controller damage","Local influence","Replacement parts",3,5,4,60
+FM74,Main Pump,"Fails to operate","Hydraulic system failure","No effect during this phase","Indication to pilot",4,2,5,40
+FM75,Main Pump,"Untimely operation","Untimely hydraulic pressure","Untimely extension of Landing Gear","Indication to pilot",5,4,3,60
+FM76,Check Valve (Main),"Stuck closed","Loss of fluid flow through the check valve","No effect","Indication to pilot",4,3,4,48
+FM77,Check Valve (Main),"Stuck open","Permits fluid flow when not required","No effect","Undetected",3,5,2,30
+FM78,M-5 Screw,"Loosening causes vibration","Undesirable vibration","Blade unbalancing and rotor vibration","Preflight check",5,2,3,30
+FM79,Hub,"Bearing teetering damage","Loss of lubricant","Delay in control commands, Rotor vibration","Preflight check",6,3,4,72
+FM80,Regulator,"Damaged","Fault in electronic system","No power transmitted to avionics","Redundant part",7,3,2,42
+FM81,Cylinder Assembly,"Air leakage","Inadequate stroke of pusher cylinder","None","Replace or repair O-rings",4,4,5,80
+FM82,Pusher Fingers,"Wear marks","High temperature wears out","None","Regular maintenance",2,5,3,30
+FM83,Cylinder Arm,"Dents on bottles","Bad control","None","Adjust control parameters",2,4,2,16
+FM84,Pusher Assembly,"Over vibration from broken bolt","Misalignment, inappropriate tightening","None","Check and realign",4,3,3,36
+FM85,Pusher Assembly,"Excessive vibration from loose bolt","Inappropriate tightening, excessive temperature","None","Regular inspection and tightening",5,2,2,20
+FM86,Piston of Pusher Assembly,"Wear causes clearance and play","Lubrication, wear out","None","Replace worn parts",4,5,3,60
+FM87,Machine Conveyor,"Piston ring wear from hot glass transfer","Lubrication, wear out","None","Enhance maintenance schedule",4,6,3,72
+FM88,Shaft,"Loose bush on shaft","Vibration","Loose coupling","Check and secure bushings",5,6,3,90
+FM89,Shaft,"Damaged set screw of bushing","Overtightening","Bushing failure","Regular torque checks",5,6,3,90
+FM90,Machine Base,"Uneven plate surface","Manufacturing error","Leakage","Ensure manufacturing quality",7,3,4,84
+FM91,Pusher Finger,"Loose due to high temperature","Excessive temperature","Wares un-transferable","Regular temperature checks and component inspections",5,4,3,60
+FM92,Water Treatment System,Nonfulfillment of SOP,"Low level of concern and knowledge","Irregularities in work","Enforce training and compliance to SOP",4,3,4,48
+FM93,Water Intake Quality,"Raw water quality does not meet standard","Industrial pollution on river banks","Raw water quality that does not meet standard","Regular monitoring and lobbying for pollution control",6,5,3,90
+FM94,Pumping Machines,Maintenance Negligence,"Lack of machine maintenance SOP","Easy breakdown of machine","Implement regular maintenance schedules",5,4,4,80
+FM95,Pumping Machines,Excessive Operation Hours,"No machine replacement","Fast machine damage","Schedule replacements and limit machine hours",7,4,2,56
+FM96,Chemical Dosing,Inappropriate Chemical Dosage,"No preliminary calculations performed","Clean water does not comply with quality standards","Conduct training and enforce calculation checks",5,3,3,45
+FM97,Chemical Management,Improper Chemical Concentrations,"Lack of chemical dosage SOP","Clean water does not comply with quality standards","Review and enhance chemical handling SOPs",5,3,3,45
+FM99,Clutch Pad,"Wear clutch pads","Power not achieved","Forklift lacks power","Replace clutch pads regularly",8,1,6,480
+FM100,Master Clutch,"Master clutch seal broken","Clutch pads on flywheel not release","Gear did not want to be inserted","Replace clutch seal and inspect master clutch",8,1,5,400
+FM101,Radiator,"Radiator water dirty, radiator rusted","Temperature not maintained according to working temperature","Engine overheats and does not start","Clean and maintain radiator, replace if necessary",8,3,5,120
+FM102,Radiator,"Leaking radiator fins","Temperature not maintained","Engine overheats and does not start","Inspect and replace radiator fins",8,3,5,120
+FM103,Radiator,"Hose radiator was broken","Temperature not maintained","Engine overheats and does not start","Regular inspection and replacement of radiator hoses",8,3,5,120
+FM104,Tires,"Tire leaking due to overload","Load was Overload","Forklift not moving","Regular tire inspections, maintain load limits",5,5,5,125
+FM105,Tires,"Terrain issues","The terrain was traversed by many plates, the operator does not pay attention to the road","Forklift not moving","Train operators and inspect terrain prior to operation",8,1,3,240
+FM106,Solar Tank,"Clogged/dirty solar, dirty diesel tanks","Fuel pump damaged","Forklift jams","Clean solar and diesel tanks regularly, check for sediments",7,6,8,336
+FM107,Hydraulic System,"Leaking Seal hydraulic","Unable to lift weights at capacity","Reduced drive power","Replace hydraulic seals and inspect system regularly",6,5,7,210
+FM108,Hydraulic System,"Hydraulic hose ruptured","Hydraulic does not work","Reduced hydraulic function","Regular inspection and replacement of hydraulic hoses",8,8,7,448
+FM109,Starter Motor,"Carbon brush starter motor run out","Engine failed to start","Could not be turned on","Replace carbon brushes and inspect starter motor",4,6,4,96
+FM110,Starter Motor,"Electric current is less than voltage working (12 V)","Engine failed to start","Could not be turned on","Check electrical connections and ensure proper voltage",4,8,4,128
+FM111,Compressor,"Compressor breakdown",224,"Install gas pressure sensor and lubricant level meter",56
+FM112,Blower Fan,"Air flow decreased",48,"Install rational speed detector and motor temperature gauge",18
+FM113,Expansion Valve,"Regulating not working properly",180,"Install leakage sensor",90
+FM114,Evaporator,"Heat not exchanging",175,"Install substance detector sensor",60
+FM115,Fan Motor,"Motor breakdown",96,"Install motor temperature gauge",24
+FM116,Lever Bush(Fuel Pump),"Friction, wear","Overuse & excess friction","Inapt acceleration or actuation",4,8,10,320,"Replacement after stipulated time span."
+FM117,Cam Plate (Fuel Pump),"Pitting & Rusting","Water emulsions & fuel impurities","Erroneous fuel supply",7,15,9,945,"Avoid water mixes and impure fuel."
+FM118,Rollers (Fuel Pump),"Pitting & Rusting","Water emulsions & fuel impurities","Inaccurate fuel supply and noise",7,14,9,882,"Avoid water mixes and impure fuel."
+FM119,Adjusting Plug (Fuel Pump),"Friction","Friction among plug & fulcrum lever","Improper governing action",2,1,10,20,"Ensure adequate lubrication and replace if needed."
+FM120,Body (Fuel Pump),"Friction & Shear","Excessive tightening & fuel impurities","Improper pump functioning",6,10,3,180,"Avoid excessive tightening of bolts and repair if needed."
+FM121,Shim (Fuel Pump),"Thermal stresses","Friction & Wear","Negligible play",1,5,10,50,"Replace in case of failure."
+FM122,Drive Shaft (Fuel Pump),"Torsional fatigue","Inapt gear shifting & strength reduction due to corrosion","No motion transmission",10,11,3,330,"Ensure proper gear shifting by operator & avoid corrosion."
+FM123,Lever Shaft (Fuel Pump),"Torsional forces","Overuse & abrupt actuation","Improper acceleration",5,8,9,360,"Replace after specific period."
+FM124,Time Device (TD) Piston(Fuel Pump),"Thermal & Contact Stresses","Dry running & water logging","Failure to adjust fuel supply",7,12,8,672,"Avoid water mixing and dry run."
+FM125,Solenoid (Fuel Pump),"Choking","Fuel impurities","Insufficient fuel supply during overload situation",5,2,6,60,"Ensure fuel filtration."
+FM126,Supply Pump (Fuel Pump),"Frictional wear and corrosion","Water in fuel & dry run","Inadequate pressure in pump",8,5,7,280,"Water mixing to be avoided and remove markings by polishing surface."
+FM127,Spring (Fuel Pump),"Corrosion","Water in fuel","Failure to regulate fuel supply",6,5,8,240,"Water mixing to be avoided."
+FM128,Pressure Valve (Fuel Pump),"Thermal stress","Dry run","Failure to regulate pressure",7,2,7,98,"Replace if required."
+FM129,Transfer/Supply/Booster Pump,"Abnormal sound","Defective bearing/Shaft displacement","Overloading of electric motor",6,7,4,168
+FM130,Transfer/Supply/Booster Pump,"Running without oil","Gear wear-out","Low transfer/supply pressure",5,8,5,200
+FM131,High Pressure Fuel Pump,"Low supply pressure","Opening suction valve early or late","Decreasing in the engine power output",5,8,5,200
+FM132,Fuel Valve,"Early opening of fuel valve","Service pressure too light","Poor atomisation and combustion, timing problems, power balance and temperature variations",9,7,5,315
+FM133,Fuel Valve,"Dripping","Oversized injection mechanisms","Sticking of piston rings in their grooves, fire blow",7,8,6,336
+FM134,Strainer,"Plugged strainer","High viscous oil","Pressure drop in line",9,5,3,135
+FM135,Separator,"Abnormal sound","Defective bearing","Overloading of electric motor",6,8,5,240
+FM136,Separator,"Inadequate flow range","Inadequate pumping pressure","Gear wear-out",5,6,6,180
+FM137,Separator,"High viscous oil","Decreasing efficiency of separator pump",7,5,4,140
+FM138,Heat Exchanger,"Abnormal Temperature","Fouling in heat exchanger","Operational capability of the heat exchanger is correspondingly reduced",8,5,4,160
+FM139,Three-way Valve,"Inoperable","Seizing of valve","Threaten safe ship manoeuvring",5,9,7,315
+Component ID,Function,Potential Failure,Potential Effect,Severity,Cause,Occurrence,Detection,Preventive/Detective Action,RPN
+EL1,Determine the wheel speed,"Signal has not been provided","Velocity cannot be determined",10,"No signal provided",N/A,N/A,N/A,N/A
+EL2,,Wrong value of velocity,Wrong value of velocity,7,"Periodic signal differs from wheelspeed",N/A,N/A,N/A,N/A
+EL3,Detecting if wheel has been blocked,Blocking wheel not detected,"Vehicle became instable",9,"Status of wheel has been detected as rolling instead of blocked",N/A,N/A,N/A,N/A
+EL4,,Blocking wheel detected instead of rolling wheel,Wrong value of blocking status,8,"Wheel blocking has not been detected",N/A,N/A,N/A,N/A
+EL5,,,"Status of wheel has been detected as blocking instead of rolling",8,N/A,N/A,N/A,N/A,N/A
+SL1,Provide periodic signal according to wheel speed,Periodic signal differs from wheelspeed,Wrong value of velocity,7,"Sensor detects metals continuously",4,"D: Check the cable binding, P: Use water resist technology",2
+SL2,,Wrong value of velocity,Wrong value of velocity,7,"Space between cogs is not equal",2,"D: crosscheck from other sensor, P: declare periodical check of cogwheel",3
+SL3,No signal provided,"Velocity cannot be determined",10,"Sensor does not detect metals",3,"D: check plausible values, P: Ensure fixture of sensor is sufficient",3
+SL4,Wheel blocking has not been detected,Wrong value of blocking status,8,"Space between cogs is not equal",2,"D: Audit production, P: Ensure by EoL measurement",2
+SL5,Provide frequency of periodic signal according to wheel status,Status of wheel has been detected as blocking instead of rolling,Wrong value of blocking status,8,"Sensor does not detect metals",2,"D: Check engine status, too, P: Use crosscheck from other wheel",3
+SL6,Sensor detects metals continuously,2,"D: Aperiodic signal presenting, P: Ensure sensor fixture",3
+SL7,Status of wheel has been detected as rolling instead of blocked,"Vehicle became instable",9,"Sensor detects metals continuously",1,"D: Compare status to other wheel, P: Ensure sensor fixture",2
+DL1,Cogwheel,Space between cogs is not equal,Wrong value of blocking status,8,"Dust on surface of cog",2,"P: Add notice Assembly instruction, D: Check other wheels",3
+DL2,Space between cogs are not sufficient,Wrong value of blocking status,8,"Too wide space between cogs",1,"P: Production instruction, D: Product measure",2
+DL3,Inductive sensor,"Sensor does not detect metals","Velocity cannot be determined",10,"cable cut",2,"P: Assembly instruction, D: Cable protection",2
+DL4,"Sensor detects metals continuously","Velocity cannot be determined",10,"cable shorting",2,"P: Assembly instruction, D: Cable protection",2
+CL1,Failures of cog wheel,"Dust on surface of cog","Wrong value of blocking status",8,N/A,N/A,N/A,N/A
+CL2,Too wide space between cogs,"Wrong value of blocking status",8,N/A,N/A,N/A,N/A
+CL3,Failures of inductive sensor,"cable cut","Velocity cannot be determined",10,N/A,N/A,N/A,N/A
+CL4,"cable shorting","Velocity cannot be determined",10,N/A,N/A,N/A,N/A

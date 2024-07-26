@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.narrow {
+    width: 4%;
+}
+
+.medium {
+    width: 12%;
+}
+
+.wide {
+    width: 15%;
+}
+
+
+.tooltip, .second-tooltip {
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #ffffe0; /* Pale yellow background */
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    width: auto;
+}
+
+.tooltip.visible, .second-tooltip.visible {
+    display: block;
+}
+
+.tooltip-item, .second-tooltip-item {
+    padding: 5px 10px;
+    margin: 2px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    display: block; /* Ensure items stack vertically */
+}
+
+.tooltip-item:hover, .second-tooltip-item:hover {
+    background-color: #e2e2e2;
+}
+
+.processing {
+    background-color: yellow;
+}
+
+textarea.editable-textarea {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 4px;
+    resize: none;
+    overflow: auto;
+}
+
+
+.instruction {
+    position: absolute;
+    background-color: #f8f9fa; /* Light grey background */
+    border: 1px solid #ddd;
+    padding: 5px;
+    z-index: 100;
+    font-size: 14px;
+    color: #666;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    pointer-events: none; /* Makes the label non-interactive */
+}

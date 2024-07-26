@@ -1,0 +1,13 @@
+﻿ID,Item/Function,Potential Failure Mode,Potential Effects of Failure,Severity,Potential Causes,Occurrence,Current Controls,Detection,RPN,Recommended Actions,Responsible,Actions Taken,New RPN
+1,Example Item,Example Failure Mode,Example Effect,10,Example Cause,5,Example Control,8,400,Example Action,John Doe,Completed,200
+2,Example Item,Example Failure Mode,Example Effect,10,Example Cause,5,Example Control,8,400,Example Action,John Doe,Completed,200
+3,Gearbox,Gearbox oil leakage,Reduce the life of worm gear transmission,7,Seal ring damage or unqualified assembly,4,Visual inspection,6,168,Regular inspections,Dept. A,Pending,TBD
+4,Hydraulic cylinder,Hydraulic cylinder leakage,Hydraulic system failure,9,Seal ring damage,3,Regular maintenance,4,108,Improve seal quality,Dept. B,Pending,TBD
+5,Bearing,Insufficient bearing lubrication,Bearing temperature rise,6,Lubrication pipe blockage or insufficient lubricating oil,5,Regular maintenance,3,90,Check and clear blockages,Dept. C,Pending,TBD
+6,Hydraulic system,Insufficient clamping force,Workpiece loose or falling off,6,Hydraulic pipe blockage or leakage,4,Regular inspection,5,120,Regular system checks,Dept. D,Pending,TBD
+7,Gear,Gear wear,Vibration increase,5,Insufficient lubrication,4,Regular inspection,4,80,Enhanced lubrication schedule,Dept. E,Pending,TBD
+8,Gear,Insufficient gear lubrication,Gear wear or vibration increase,5,Lubrication pipe blockage,5,Regular maintenance,4,100,Regular cleaning,Dept. F,Pending,TBD
+9,Motor,Excessively high motor temperature,Motor damage,9,Bearing damage or motor fan damage,3,CNC system alarm,2,54,Monitor temperature,Dept. G,Pending,TBD
+10,Transmission system,Workpiece axis accuracy decreased,Reduce machining accuracy,8,Transmission system failure,4,Regular inspection,3,96,Adjust and maintain,Dept. H,Pending,TBD
+11,Cutting fluid system,Insufficient cutting fluid flow,Temperature rise in machining area,7,Pump damage or insufficient cutting fluid,5,CNC system alarm,3,105,Regular pump checks,Dept. I,Pending,TBD
+12,Bearing,Bearing wear,Reduce machining accuracy,6,Insufficient lubrication or impurities in the bearing,4,Regular inspection,4,96,Improve lubrication,Dept. J,Pending,TBD

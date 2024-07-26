@@ -1,0 +1,8 @@
+FMEA_ID;itemFunction;failureMode;effectsOfFailure;severity;potentialCauses;occurrence;currentControls;detection;rpn;recommendedActions;responsible;actionsTaken;newRpn
+0;Material Mixing;;;;;;;;;;;;
+1;Material Mixing;Inconsistent mixing;Inconsistent drug potency in tablets;8;Improper mixer settings;2;Regular calibration of mixing equipment;5;80;Implement real-time monitoring of mixing uniformity;Process Engineering;Pending;TBD
+2;Roll Compaction;Inadequate compaction;Uneven granule density affecting compressibility;7;Incorrect compaction pressure;3;Automatic pressure adjustments;4;84;Enhance feedback control systems in roller compactor;Mechanical Engineering;Pending;TBD
+3;Milling;Equipment wear;Non-uniform particle size distribution;6;Overuse or poor maintenance of milling equipment;4;Routine maintenance and inspection schedule;3;72;Upgrade to wear-resistant milling components;Maintenance Department;Pending;TBD
+4;Tablet Pressing;Inconsistent tablet hardness;Variability in tablet dissolution rates;9;Faulty pressure control in tablet press;3;Continuous monitoring of tablet hardness;4;108;Introduce adaptive control systems in tablet presses;Quality Assurance;Pending;TBD
+5;Coating;Uneven coating application;Compromised barrier properties and release mechanics;7;Maladjusted spray nozzles;3;Regular checks and adjustments of coating parameters;4;84;Automate coating thickness detection and control;Production Technology;Pending;TBD
+6;Packaging;Leakage in packaging;Potential contamination and reduced product shelf life;9;Inadequate sealing process;2;Leak detection tests during packaging;4;72;Enhance sealing technology and operator training;Packaging Engineering;Pending;TBD

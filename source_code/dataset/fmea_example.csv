@@ -1,0 +1,7 @@
+FMEA_ID;itemFunction;failureMode;effectsOfFailure;severity;potentialCauses;occurrence;currentControls;detection;rpn;recommendedActions;responsible;actionsTaken;newRpn
+0;Ingredient Sourcing;;;;;;;;;;;;
+1;Preparation and Cooking;Under-cooking;Pathogen survival;10;Inadequate cooking time/temperature;2;Standardized cooking procedures, temperature checks;3;60;Introduce automated cooking and monitoring systems;Kitchen Operations;Pending;TBD
+2;Preparation and Cooking;Cross-contamination;Allergen exposure, foodborne illness;8;Poor hygiene practices;4;Staff training, sanitation protocols;4;128;Increase frequency of hygiene training and audits;Quality Assurance;Pending;TBD
+3;Packaging;Improper sealing;Contamination, reduced shelf life;8;Sealing machine malfunction;3;Regular maintenance, sealing checks;3;72;Upgrade sealing technology and conduct regular checks;Packaging Department;Pending;TBD
+4;Storage and Distribution;Temperature abuse;Spoilage, pathogen growth;9;Inadequate temperature control;3;Temperature monitoring, cold chain management;4;108;Implement real-time temperature tracking;Logistics;Pending;TBD
+5;Storage and Distribution;Mislabeling;Allergen exposure, compliance issues;7;Human error, printing issues;3;Label verification, barcode systems;5;105;Automate labeling and verification processes;Production Control;Pending;TBD

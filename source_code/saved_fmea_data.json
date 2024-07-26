@@ -1,0 +1,522 @@
+{
+    "fmeaId": "",
+    "projectId": "",
+    "lastUpdated": "2024-05-09T23:30:50.383806",
+    "entries": [
+        {
+            "entryId": "",
+            "cells": {
+                "FMEA_ID": {
+                    "value": "1",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "itemFunction": {
+                    "value": "Driver Interaction",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "failureMode": {
+                    "value": "Failure to activate brakes",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "effectsOfFailure": {
+                    "value": "Complete loss of braking capability",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "severity": {
+                    "value": "9",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "potentialCauses": {
+                    "value": "Driver distraction or error in interpreting system alerts",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "occurrence": {
+                    "value": "3",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "currentControls": {
+                    "value": "Driver awareness training and automated alert systems",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "detection": {
+                    "value": "4",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "rpn": {
+                    "value": "108",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "recommendedActions": {
+                    "value": "Upgrade system alerts and improve human-machine interface",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "responsible": {
+                    "value": "Human Factors, User Interface Design",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "actionsTaken": {
+                    "value": "Pending",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "newRpn": {
+                    "value": "TBD",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                }
+            }
+        },
+        {
+            "entryId": "",
+            "cells": {
+                "FMEA_ID": {
+                    "value": "2",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "itemFunction": {
+                    "value": "Brake Control Unit",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "failureMode": {
+                    "value": "Out-of-range input signal",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "effectsOfFailure": {
+                    "value": "Incorrect braking response, either too strong or too weak",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "severity": {
+                    "value": "8",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "potentialCauses": {
+                    "value": "Misreading by sensors due to faulty input data",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "occurrence": {
+                    "value": "3",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "currentControls": {
+                    "value": "Input validation and sensor error checks",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "detection": {
+                    "value": "4",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "rpn": {
+                    "value": "144",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "recommendedActions": {
+                    "value": "Introduce smarter data filtration and validation techniques",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "responsible": {
+                    "value": "Sensor Technology, Quality Assurance",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "actionsTaken": {
+                    "value": "Pending",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "newRpn": {
+                    "value": "TBD",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                }
+            }
+        },
+        {
+            "entryId": "",
+            "cells": {
+                "FMEA_ID": {
+                    "value": "3",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "itemFunction": {
+                    "value": "ABS Functionality",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "failureMode": {
+                    "value": "Excessive ABS engagement",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "effectsOfFailure": {
+                    "value": "Vehicle braking is erratic, causing potential safety hazard",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "severity": {
+                    "value": "9",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "potentialCauses": {
+                    "value": "Flawed ABS signal interpretation leading to overreaction",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "occurrence": {
+                    "value": "2",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "currentControls": {
+                    "value": "Verification routines for ABS processing logic",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "detection": {
+                    "value": "4",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "rpn": {
+                    "value": "300",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "recommendedActions": {
+                    "value": "Restructure ABS algorithm to prevent over-engagement",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "responsible": {
+                    "value": "Hardware Engineering, Reliability Testing",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "actionsTaken": {
+                    "value": "Pending",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "newRpn": {
+                    "value": "TBD",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                }
+            }
+        },
+        {
+            "entryId": "",
+            "cells": {
+                "FMEA_ID": {
+                    "value": "4",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "itemFunction": {
+                    "value": "ABS Functionality",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "failureMode": {
+                    "value": "ABS fails to engage",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "effectsOfFailure": {
+                    "value": "Loss of directional control during braking",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "severity": {
+                    "value": "7",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "potentialCauses": {
+                    "value": "Fault in the ABS controller hardware or software",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "occurrence": {
+                    "value": "1",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "currentControls": {
+                    "value": "Systematic checks of ABS component functionality",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "detection": {
+                    "value": "5",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "rpn": {
+                    "value": "150",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "recommendedActions": {
+                    "value": "Replace or overhaul defective ABS components",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "responsible": {
+                    "value": "Hardware Engineering, Reliability Testing",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "actionsTaken": {
+                    "value": "Pending",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "newRpn": {
+                    "value": "TBD",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                }
+            }
+        },
+        {
+            "entryId": "",
+            "cells": {
+                "FMEA_ID": {
+                    "value": "5",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "itemFunction": {
+                    "value": "Pump Pressure",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "failureMode": {
+                    "value": "Hydraulic Fluid Leakage",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "effectsOfFailure": {
+                    "value": "Reduced brake force and potential system failure",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "severity": {
+                    "value": "9",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "potentialCauses": {
+                    "value": "Seal wear or fitting corrosion",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "occurrence": {
+                    "value": "4",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "currentControls": {
+                    "value": "Visual inspections and pressure tests",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "detection": {
+                    "value": "3",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "rpn": {
+                    "value": "108",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "recommendedActions": {
+                    "value": "Upgrade to higher quality seals and corrosion-resistant fittings",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "responsible": {
+                    "value": "Mechanical Engineering, Maintenance",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "actionsTaken": {
+                    "value": "Pending",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                },
+                "newRpn": {
+                    "value": "TBD",
+                    "aiGeneratedContent": {
+                        "status": "",
+                        "suggestions": []
+                    }
+                }
+            }
+        }
+    ]
+}

@@ -15,3 +15,5 @@ In this demonstration, we apply an LLM to analyze the brake-by-wire system, a cr
 
 ![Brake-by-Wire Analysis](FMEA_brake_by_wire.png)
 
+## About the Author
+<a href="https://yuchenxia.github.io/" target="_blank">Yuchen Xia</a> is a PhD candidate specializing in LLM agents, digital twins, and industrial automation since 2021. You can find more about his work, publications and projects on his <a href="https://yuchenxia.github.io/" target="_blank">personal website</a>.

@@ -3,6 +3,15 @@
 Failure Mode and Effects Analysis (FMEA) is a systematic method used to identify and address potential failures in products or industrial processes. This project demonstrates how Large Language Models (LLMs) can significantly enhance the traditional FMEA process, automating it to ensure higher safety, quality, and reliability while reducing the dependency on extensive expert input and labor-intensive analyses.
 
 - **Demo**: Access the runnable demo [https://llm-fmea-assistant-v2-yawjvp4zbq-ew.a.run.app](https://llm-fmea-assistant-v2-yawjvp4zbq-ew.a.run.app).
+- 
+## Related Dissertation
+This work is part of the doctoral research summarized in the Ph.D. dissertation:
+
+> Y. Xia, **Integrating Large Language Model Agents with Digital Twins for Industrial Autonomous Systems**, Doctoral Dissertation, University of Stuttgart, 2026.
+>
+> which presents a general framework for integrating LLMs, digital twins, and automation systems into industrial autonomous systems, including synthesised theories and multiple industrial case studies.
+>
+> Dissertation (Open-access): https://doi.org/10.18419/opus-18222
 
 # Project Demonstrations
 This repository contains demonstrations of LLM-assisted FMEA in distinct applications:
